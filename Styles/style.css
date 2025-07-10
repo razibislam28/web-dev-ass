@@ -1,0 +1,44 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* nav styles */
+.navbar{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.nav-title{
+    font-size: 34px;
+    color: #4E47FF;
+}
+.btn{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    padding:12px 36px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    
+}
+.btn:hover{
+background-color: #ffc107;
+color:black ;
+transform: scale(1.05);
+}
+
+ 
+
+
+  
+ 
