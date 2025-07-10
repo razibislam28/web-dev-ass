@@ -9,7 +9,7 @@
     background-size: cover;
     /* height: 100vh; */
     height: 698px;
-    width: 1440px;
+
 }
 
 /* nav styles */
@@ -70,6 +70,31 @@ transform: scale(1.05);
 .action-right img {
   max-width: 100%;
   border-radius: 12px;
+}
+/* Productive Users Stats Section */
+.stats {
+  background-color: #dfe3f5;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius:24px;
+  margin: 0px 159px;
+}
+.stats h2 {
+  margin-bottom: 40px;
+}
+.stat-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.stat-grid div h3 {
+  font-size: 2em;
+  color: #3b5bfc;
+}
+.stat-grid div p {
+  font-size: 1em;
+  color: #00000079;
 }
 
 
