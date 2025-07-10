@@ -54,7 +54,23 @@ transform: scale(1.05);
     font-size: 65px;
     color: #252432;
 }
- 
+/* Action styles on main */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 116px 159px;
+  flex-wrap:wrap;
+}
+.action-left {
+  
+  max-width: 500px;
+  flex:1;
+}
+.action-right img {
+  max-width: 100%;
+  border-radius: 12px;
+}
 
 
   
