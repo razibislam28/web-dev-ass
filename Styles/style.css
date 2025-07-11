@@ -7,9 +7,7 @@
 .header{
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
-    /* height: 100vh; */
     height: 698px;
-
 }
 
 /* nav styles */
@@ -59,25 +57,27 @@ transform: scale(1.05);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 116px 159px;
   flex-wrap:wrap;
+  margin: 116px 159px 116px 141px;
 }
 .action-left {
-  
-  max-width: 500px;
-  flex:1;
+  padding: 62px 220px 62px 0px;
+
+}
+.action-left p{
+    color: #2524327b;
 }
 .action-right img {
   max-width: 100%;
-  border-radius: 12px;
+  border-radius: 48px;
 }
-/* Productive Users Stats Section */
+/* Productive Users Stats Section styles*/
 .stats {
   background-color: #dfe3f5;
   padding: 60px 20px;
   text-align: center;
   border-radius:24px;
-  margin: 0px 159px;
+  margin: 0px 159px 0px 141px;
 }
 .stats h2 {
   margin-bottom: 40px;
@@ -96,7 +96,73 @@ transform: scale(1.05);
   font-size: 1em;
   color: #00000079;
 }
+/* Users Feedback Section  styles*/
+.test-container {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 150px;
+}
 
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
 
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cards-container p{
+    font-size:small;
+    color: #1E1E1E;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.085);
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
+  margin-right: 2px;
+}
+
+.card h3 {
+  margin: 16px 0 8px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+strong{
+    color: #757575;
+    font-size: small;
+}
+.card small{
+    color: #B3B3B3;
+    font-size: small;
+} 
   
  
