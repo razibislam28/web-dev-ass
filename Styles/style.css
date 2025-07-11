@@ -8,6 +8,8 @@
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
     height: 698px;
+    color: #4E47FF;
+    gap: 158px;
 }
 
 /* nav styles */
