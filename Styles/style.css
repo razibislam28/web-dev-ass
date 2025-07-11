@@ -193,5 +193,54 @@ strong{
   width: 840px;
   border-radius: 48px;
 }
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 150px;
+  background: #fff;
+  flex-wrap: wrap;
+}
+.contact-left {
+  margin: 90px 150px 14px 150px ;
+
+}
+
+.contact-left h2 {
+  font-size: 60px;
+  font-weight: bold;
+  height: 230px;
+  width: 528px;
+}
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
   
+}
+.contact-right label {
+  font-weight: bold;
+  margin-top: 19px;
+  font-size: 14px;
+  gap:10;
+  margin-bottom: 5px;
+}
+ 
+.contact-right input,
+.contact-right textarea {
+  padding: 32px 20px;
+  margin-top: 19px;
+  gap: 10;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+}
+.contact-right textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+.contact-right button {
+  margin-top: 20px;
+}
  
