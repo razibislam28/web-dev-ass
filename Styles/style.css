@@ -250,6 +250,8 @@ footer {
   text-align: center;
   background-color: #FFFFFF;
   padding: 104px 455px;
+  height: 428px;
+  width: 1440px;
 }
 .footer-logo {
   font-weight: 900;
