@@ -164,5 +164,34 @@ strong{
     color: #B3B3B3;
     font-size: small;
 } 
+/* Focus Better Section with hero styles */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  font-size: 1.1em;
+  color: #00000078;
+  margin-bottom: 20px;
+}
+.hero-image {
+  margin-top: 20px;
+
+}
+
+.hero-image img {
+  height: 360px;
+  width: 840px;
+  border-radius: 48px;
+}
   
  
